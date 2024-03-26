@@ -1,0 +1,69 @@
+21:20:43.422 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Starting ProcessIO Connection
+21:20:43.424 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer started
+21:20:43.724 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+21:20:43.817 [main] INFO  d.s.c.ls.service.C4LanguageServer - getWorkspaceService
+21:20:43.819 [main] INFO  d.s.c.ls.service.C4LanguageServer - getTextDocumentService
+21:20:43.834 [main] INFO  d.s.c.ls.service.C4LanguageServer - connect
+21:20:43.888 [pool-1-thread-1] INFO  d.s.c.ls.service.C4LanguageServer - initialize
+21:20:43.942 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didOpen file:///c%3A/Users/Artem%20Chistyakov/LR_2_SA/workspace.dsl
+21:20:43.944 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - documentColor
+21:20:43.943 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDiagnostics 0
+21:20:43.945 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+21:20:43.972 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - createModel c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:43.973 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing...
+21:20:44.004 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 1, contextId: 1985679729, contextName WorkspaceDslContext
+21:20:44.004 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.005 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 3, contextId: 1497020240, contextName ModelDslContext
+21:20:44.007 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.008 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: user, modelId: 1 at linenumber: workspace.dsl, 4
+21:20:44.009 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.011 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedModelElement identifier: softwareSystem, modelId: 2 at linenumber: workspace.dsl, 5
+21:20:44.011 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.017 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedRelationShip 1->2, identifier: null, at linenumber: workspace.dsl, 7
+21:20:44.017 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.084 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 8, contextId: 1497020240, contextName ModelDslContext
+21:20:44.085 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.087 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 10, contextId: 499491016, contextName ViewsDslContext
+21:20:44.087 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.096 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onParsedView View: Diagram1 at linenumber workspace.dsl, 11
+21:20:44.096 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.097 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 11, contextId: 275946779, contextName SystemContextViewDslContext
+21:20:44.097 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.101 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 13, contextId: 275946779, contextName SystemContextViewDslContext
+21:20:44.101 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.101 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 14, contextId: 499491016, contextName ViewsDslContext
+21:20:44.101 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.101 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onStartContext: workspace.dsl at linenumber 16, contextId: 1157507358, contextName ConfigurationDslContext
+21:20:44.101 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.102 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 18, contextId: 1157507358, contextName ConfigurationDslContext
+21:20:44.103 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.103 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - onEndContext: workspace.dsl at linenumber 20, contextId: 1985679729, contextName WorkspaceDslContext
+21:20:44.103 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.103 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - Parsing finished
+21:20:44.103 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setWorkspace Name
+21:20:44.104 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c4dsl.ls.model.C4DocumentModel - setValid true
+21:20:44.105 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDiagnostics
+21:20:44.105 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.106 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+21:20:44.106 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider - calcDocumentColors file:/c:/Users/Artem%20Chistyakov/LR_2_SA/workspace.dsl
+21:20:44.106 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.provider.C4ColorProvider -                    []
+21:20:44.312 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+21:20:44.313 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+21:20:44.313 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.313 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+21:20:44.401 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - semanticTokensFull
+21:20:44.401 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+21:20:44.401 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:44.402 [ForkJoinPool.commonPool-worker-2] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+21:20:44.415 [ForkJoinPool.commonPool-worker-2] DEBUG d.s.c.l.p.C4SemanticTokenProvider - Semantik Tokens at [6, 8, 4, 14, 0, 0, 8, 14, 14, 0, 4, 22, 14, 14, 0]
+21:20:50.431 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.ls.service.C4WorkspaceService - executeCommand c4-server.text-decorations
+21:20:50.431 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - textDecorations
+21:20:50.431 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+21:20:50.431 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:50.431 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+21:20:50.812 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - codeLens
+21:20:50.813 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - --> getDocument
+21:20:50.813 [ForkJoinPool.commonPool-worker-1] DEBUG d.s.c.ls.model.C4DocumentManager - getModel file: c:\Users\Artem Chistyakov\LR_2_SA\workspace.dsl
+21:20:50.813 [ForkJoinPool.commonPool-worker-1] INFO  d.s.c.l.s.C4TextDocumentService - <-- getDocument
+21:21:03.945 [pool-1-thread-1] INFO  d.s.c.l.s.C4TextDocumentService - didClose file:///c%3A/Users/Artem%20Chistyakov/LR_2_SA/workspace.dsl
+21:37:36.060 [main] INFO  d.s.c.ls.C4LanguageServerLauncher - Launching C4LanguageServer finished
